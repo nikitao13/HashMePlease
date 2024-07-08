@@ -1,4 +1,4 @@
-# CTF Challenge: Hash Me Please
+# RingZer0 CTF Challenge: Hash Me Please
 
 ## Challenge Description
 
@@ -53,7 +53,7 @@ The main execution flow calls `getFlag()`, then logs the flag if successful or l
 
 1. Ensure you have Node.js installed
 2. Install the required dependencies: `npm install axios jsdom dotenv`
-3. Create a `.env` file with your `COOKIE` value
+3. Create a `.env` file with your `COOKIE` value (You will need to login to RingZer0 Online & copy your PHPSESSID=xxxxxxx cookie)
 4. Run the script: `node hash.js`
 
 ## Notes
