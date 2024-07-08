@@ -60,3 +60,4 @@ The main execution flow calls `getFlag()`, then logs the flag if successful or l
 
 - The script uses a timeout of 4269ms for the initial request to prevent hanging if the server doesn't respond
 - Make sure to keep your cookie value secret and do not share it publicly
+- Hash Me Again challenge 14 is mostly the same code, with an added `binaryToString` function
