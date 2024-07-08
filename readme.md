@@ -52,4 +52,11 @@ The main execution flow calls `getFlag()`, then logs the flag if successful or l
 ## Running the Script
 
 1. Ensure you have Node.js installed
-2. Install the required dependencies:
+2. Install the required dependencies: `npm install axios jsdom dotenv`
+3. Create a `.env` file with your `COOKIE` value
+4. Run the script: `node hash.js`
+
+## Notes
+
+- The script uses a timeout of 4269ms for the initial request to prevent hanging if the server doesn't respond
+- Make sure to keep your cookie value secret and do not share it publicly
